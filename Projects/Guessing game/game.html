@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Guessing Game</h1>
+    <h1 id="root"></h1>
+    <button onclick="game()">click</button>
+    <script>
+        function game(){
+            let h1=document.getElementById("root")
+            h1.innerHTML=Math.floor(Math.random()*7+1)
+
+        }
+    </script>
+</body>
+</html>
